@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+html {
+  /*width: 100%;*/
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*width: 100%;*/
+  /*height: 200%;*/
+  background: linear-gradient(
+    to bottom right,  
+    #2C3E50, #FD746C, 
+    #FF8235, #ffff1c, 
+    #92FE9D, #00C9FF, 
+    #a044ff, #e73827);
+  background-repeat: no-repeat;
+  background-size: 1000% 1000%;
+  animation: gradient 120s ease infinite;
+}
+
+    
+@keyframes gradient { 
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+  
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body#trans{
+  background-color: rgba(0,0,0,.5); 
+}
+
+small.developer {
+  color: white;
+}
+
+a.navbar-brand {
+  font: bold 2.6em  'Great Vibes', cursive;
+  color: white;
+}
+
+#navbar {
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+  background-color: #000;
+  margin: 0 0 30px;
+}
+#active:hover{
+  background-color: #330066;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  #wrapper {
+  margin: 0 200px;
+  }
+}
+ 
+ .red{
+  position: relative;
+   background-color: red;
+   cursor: pointer;
+   font-size: 24px;
+   font-weight: bolder;
+   padding: 32px 16px;
+   border-radius: 12px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0,0,0,0.5);
+ }
+
+#clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+figure {
+  margin: 10px 10px 10px;
+}
+
+#myPicture {
+	max-width: 100%;
+	margin: 10px 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0,0,0,0.5);
+}
+
+img {
+  max-width: 100%;
+  margin: 10px 0; 
+}
+
+
+#shadow {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0,0,0,0.5);*/
+}
+
+h1#text-shadow {
+  font: bold 8em 'Roboto', sans-serif;
+  color: #e0e0d1;
+}
+h1, h2, h3, h4, h5{
+  color: #000;
+}
+ 
+ h3.whiteText {
+  color: #fff;
+ }
+
+div#blue {
+	background-color: #0066ff;
+}
+
+#list{
+	background-color: #bf40bf;
+}
+div#recoded img{
+  height: 180px; 
+}
+#recoded {
+  background-color: white;
+  height: 580px
+   z-index: 3;
+}
+#recoded:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+      
+}
+
+ 
+ a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+ a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+ a:active{
+  color: #660066;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+ 
+ div.bounce {
+   animation: bounceIn 2s;
+ }
+.whitBacks{
+  background-color: #fff;
+}
+
+#footer {
+  text-align: center;
+  color: white; 
+  font-size: 1em;
+  padding: 10px;
+  background: #000;
+  border-top: 1px solid; 
+}
+ #main {
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h3{
+  font-family: sans-serif;
+}
+
+h3#font-type{
+  font-family: 'Arvo', serif;
+  font-size: 30px;
+}
+p#black {
+  font: font-family: 'Arvo', serif;
+  font-size: 1em;
+  background-color: black;
+}
+
+h3#date, h3#explanation, h3#date2, h3#caption1 {
+  color: black;
+}
+.col-lg-4 {
+  background-color: rgba(0,0,0,.5);
+height: 500px;}
+
+#current {
+  background-color: rgba(0,0,0,.5);
+}
+#white {
+  background-color: rgba(255,225,225,.5);
+  height: 370px;
+}
+
+.lower {
+  position: relative;
+  top: 70px
+}
+a#curr, a#fav{
+  height: 60px;
+  width: 288px;
+  /*width: auto;*/
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
