@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300');
+
+
 html {
   /*width: 100%;*/
   height: 100%;
@@ -63,12 +66,28 @@ a.navbar-brand {
 #active:hover{
   background-color: #330066;
 }
+
+#active:visited{
+color: blue;
+}
+
 @media only screen and (min-width: 1000px) and (max-width: 1400px) {
   #wrapper {
   margin: 0 200px;
   }
 }
- 
+
+ #courses {
+
+text-align: center;
+background-color: #000;
+margin:  15px;
+ }
+
+ #courses:hover{
+  background-color: #330066;
+}
+
  .red{
   position: relative;
    background-color: red;
@@ -97,11 +116,22 @@ figure {
 	max-width: 100%;
 	margin: 10px 0;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0,0,0,0.5);
+   border-radius: 10px;
 }
 
 img {
   max-width: 100%;
   margin: 10px 0; 
+}
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.carousel-inner {
+  border-radius: 15px;
 }
 
 
@@ -112,6 +142,7 @@ img {
 h1#text-shadow {
   font: bold 8em 'Roboto', sans-serif;
   color: #e0e0d1;
+ text-align: center;
 }
 h1, h2, h3, h4, h5{
   color: #000;
@@ -119,6 +150,9 @@ h1, h2, h3, h4, h5{
  
  h3.whiteText {
   color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5em;
+ 
  }
 
 div#blue {
@@ -232,5 +266,38 @@ a#curr, a#fav{
   font-weight: bolder;
   text-align: center;
 }
+#box {
 
+    width: auto;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 10px;
+    
+}
+#contactus {
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+ 
+}
+h1#newtext {
+color: white;
+}
 
+@media only screen and (max-width: 865px) {
+
+  h1#contactus{ font-size:2em;
+word-wrap: break-word;
+  }
+}
+
+@media only screen and (max-width: 865px) {
+
+  h1#text-shadow { font-size:2em;
+word-wrap: break-word;
+  }
+}
+#menue {
+  border: 1px solid black;
+}

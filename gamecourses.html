@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Courses</title>
+  <title>Game Designing</title>
 
   <!-- Bootstrap -->
 
@@ -21,8 +21,51 @@
       <![endif]-->
     </head>
       <body id="trans" class="project">
-     <div id="nav-placeholder">
-   </div>
+     <nav class="navbar navbar-inverse" id="navbar">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">TT</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <!--main navbar-->
+                  <ul class="nav navbar-nav">
+                    <li id="active"><a href="index.html">HOME</a></li>
+                    <li id="active"><a href="about.html">ABOUT US</a></li>
+                    <li  id="courses"><div class="dropdown">
+                                   <a id="dLabel" data-target="#" href="courses.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                       COURSES
+                                 <span class="caret"></span></a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                  <li id="menue"><a href="gamecourses.html">Game Designing</a></li>
+                                  <li id="menue"><a href="websitecourses.html">website Designing</a></li>
+                                </ul>
+                                   </div>
+                    </li>
+                    <li  id="active"><a href="contact.html">CONTACT US</a></li>
+                    <li  id="active"><a href="location.html">LOCATION</a></li>
+
+                  </ul>
+                  <!--social sites-->
+                  <ul class="nav navbar-nav navbar-right">
+                    <li id="active"><a class="github" href="https://github.com/fatmaMY" title="Github" target="_blank"><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></a></li>
+                   
+                    <li id="active"><a class="linkedin" href="https://www.linkedin.com/in/fatima-mohammad-a23187130/" title="Linkedin" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
+
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+         
   </br>
 
 </br>
@@ -43,30 +86,25 @@
       <!-- <div class='col-md-4'>
       </div> -->
     </div>
-
+   </br>
     <div class="row">
       <!-- <div class='col-md-6'>
       </div> -->
-     <div class="col-12 col-md-8" id="shadow">
-      <h3 class="whiteText">Scratch is the most widely used teaching tool for kids today.  Kudos to the folks at MIT who created it, Scratch is great because it's so graphical and easy to start with, but can support even the most complex logic that professionals use.  Think your little students "knows Scratch" already?  They don't!  That's the beauty of what we teach - it's not the language (the "syntax") that matters , it's the practice of thinking through a problem and applying a solution (the "logic") that's critical to ANY coding language - and any future career, for that matter!  Some locations may choose to use Snap! instead, a similar language created by Berkeley (that they even use to teach Berkeley college freshman!).  You can find out more about Scratch at http://scratch.mit.edu and Snap! at http://snap.berkeley.edu.
- </h3>
-      </div>
       <div class="col-6 col-md-4">
-        <h1><i class="fa fa-arrow-left" aria-hidden="true"></i><i class="fa fa-arrow-left" aria-hidden="true"></i><br>TEACHING PLATFORM</h1>
+        <h1><i class="fa fa-arrow-right" aria-hidden="true"></i><i class="fa fa-arrow-right" aria-hidden="true"></i><br>TEACHING PLATFORM</h1>
         <figure>
         <img src="images/scratch.png" alt="scratch code" title="Scratch Code">
         </figure>
       </div>
-    </div>
-    <div class="row">
-     <!--  <div class='col-md-4'>
-      </div> -->
-     <div class="col-6 col-md-4">
-        <h1><i class="fa fa-arrow-right" aria-hidden="true"></i><i class="fa fa-arrow-right" aria-hidden="true"></i><br>CONCEPTS LEARNED</h1>
-        <figure>
-        <img src="images/cc4k.jpg" alt="coding class" title="Coding Class">
-        </figure>
+     <div class="col-12 col-md-8" id="shadow">
+      <h3 class="whiteText">Scratch is the most widely used teaching tool for kids today.  Kudos to the folks at MIT who created it, Scratch is great because it's so graphical and easy to start with, but can support even the most complex logic that professionals use.  Think your little students "knows Scratch" already?  They don't!  That's the beauty of what we teach - it's not the language (the "syntax") that matters , it's the practice of thinking through a problem and applying a solution (the "logic") that's critical to ANY coding language - and any future career, for that matter!  Some locations may choose to use Snap! instead, a similar language created by Berkeley (that they even use to teach Berkeley college freshman!).  You can find out more about Scratch <a href="http://scratch.mit.edu" target="_blank">at http://scratch.mit.edu.</a>
+ </h3>
       </div>
+      <!--  -->
+    </div>
+    </br>
+    <div class="row">
+    
       <div class="col-12 col-md-8" id="shadow">
         <h3 class="whiteText">What will students learn?  Lots of cool stuff!  Our programe focus on coding apps from scratch.  We're not just relying on a platform to change parameters in a game, we're actually doing sequential coding through logical steps.  Students will gain general skills like problem solving, teamwork, code debugging, and perhaps most importantly, all students will learn and practice the logical thinking skills required to program a computer at any level!  In addition students will gain and practice important coding concepts that may include:
 
@@ -78,27 +116,34 @@ Simple Math Logic
 and More!
 </h3>
       </div>
+
+      <div class="col-6 col-md-4">
+        <h1><i class="fa fa-arrow-left" aria-hidden="true"></i><i class="fa fa-arrow-left" aria-hidden="true"></i><br>CONCEPTS LEARNED</h1>
+        <figure>
+        <img src="images/cc4k.jpg" alt="coding class" title="Coding Class">
+        </figure>
+      </div>
     </div>
      <div class="row">
-      <!-- <div class='col-md-6'>
-      </div> -->
-     <div class="col-12 col-md-8" id="shadow">
-      <h3 class="whiteText">Kids with very little or no coding background can join us for this beginner's programming course.  And, because we have a number of games up our sleeves, even the more advanced elementary school coders can learn and have fun in our programe by coding more complex games.  If your students is a regular Coder School student however, be sure to check with us first, as sometimes this material is covered in more detail in our regular after-school Coaching sessions.
- </h3>
-      </div>
+      
       <div class="col-6 col-md-4">
-        <h1><i class="fa fa-arrow-left" aria-hidden="true"></i><i class="fa fa-arrow-left" aria-hidden="true"></i><br>SKILL LEVEL</h1>
+        <h1><i class="fa fa-arrow-right" aria-hidden="true"></i><i class="fa fa-arrow-right" aria-hidden="true"></i><br>SKILL LEVEL</h1>
         <figure>
         <img src="images/codepaint.png" alt="coding paint" title="Coding Paint">
         </figure>
       </div>
+     <div class="col-12 col-md-8" id="shadow">
+      <h3 class="whiteText">Kids with very little or no coding background can join us for this beginner's programming course.  And, because we have a number of games up our sleeves, even the more advanced elementary school coders can learn and have fun in our programe by coding more complex games.  If your students is a regular Coder School student however, be sure to check with us first, as sometimes this material is covered in more detail in our regular after-school Coaching sessions.
+ </h3>
+      </div>
+      
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   
     <script src="https://use.fontawesome.com/5d895059d5.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   
     <script src="js/bootstrap.min.js"></script>
     <script src='js/project.js'></script>
    <script src='js/nav.js'></script>
